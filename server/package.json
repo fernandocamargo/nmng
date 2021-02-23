@@ -1,0 +1,28 @@
+{
+  "name": "nmng",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "start": "nodemon --exec babel-node -r dotenv/config ./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "immutability-helper": "^3.1.1",
+    "knex": "^0.21.17",
+    "lodash": "^4.17.21",
+    "pg": "^8.5.1",
+    "pg-native": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/node": "^7.12.17",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.13",
+    "@babel/preset-env": "^7.12.17",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
